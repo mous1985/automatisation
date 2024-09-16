@@ -3,13 +3,13 @@ import os
 # Path to the cloned repository directory
 repo_path = '/home/muss/gno'
 # Base path for the output files
-output_file_base = '/home/muss/automatisation/gno_concatenated_part'
+output_file_base = '/home/muss/automatisation/txt'
 
 # Maximum file size in bytes (20 MB)
-max_file_size = 1 * 1024 * 1024
+max_file_size = 2 * 1024 * 1024
 
 # File extensions to extract
-extensions = ['.gno', '.md', '.json', '.txt', '.go' , '.sh', '.yml', '.yaml', '.mod', '.sum', '.gitignore', '.gitattributes', '.dockerignore', '.Dockerfile', '.dockerfile', '.env', '.env.example', '.env.sample', '.env.test', '.env.local', '.env.development', '.env.production', '.env.staging', '.env.ci', '.env.netlify', '.env.vercel', '.env.local.example', '.env.development.example', '.env.production.example', '.env.staging.example', '.env.ci.example', '.env.netlify.example', '.env.vercel.example', '.env.local.sample', '.env.development.sample', '.env.production.sample', '.env.staging.sample', '.env.ci.sample', '.env.netlify.sample', '.env.vercel.sample', '.env.local.test', '.env.development.test', '.env.production.test', '.env.staging.test', '.env.ci.test', '.env.netlify.test', '.env.vercel.test']
+extensions = ['.gno', '.md', '.json', '.txt', '.go' , '.sh', '.yml', '.yaml', '.mod', '.sum', '.gitignore', '.gitattributes', '.dockerignore', '.Dockerfile', '.dockerfile', '.env', '.env.example', '.env.sample', '.env.test', '.env.local', '.env.development', '.env.production', '.env.staging', '.env.ci', '.env.netlify', '.env.vercel', '.env.local.example', '.env.development.example', '.env.production.example', '.env.staging.example', '.env.ci.example', '.env.netlify.example', '.env.vercel.example', '.env.local.sample', '.env.development.sample', '.env.production.sample', '.env.staging.sample', '.env.ci.sample', '.env.netlify.sample', '.env.vercel.sample', '.env.local.test', '.env.development.test', '.env.production.test', '.env.staging.test', '.env.ci.test', '.env.netlify.test', '.env.vercel.test',]
 
 file_index = 1
 current_file_path = f"{output_file_base}_{file_index}.txt"
